@@ -1,0 +1,38 @@
+/* descendant combinators */
+
+/* used: type selectors */
+/*
+div p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+/* used: class selectors */
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* used: mixed type and class selector or vice-versa */
+/*
+.container p {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
+
+/* 
+div .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+*/
