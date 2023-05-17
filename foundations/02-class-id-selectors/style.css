@@ -1,0 +1,22 @@
+.odd {
+    background-color: lightpink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#second {
+    color: blue;
+    font-size: 36px;
+}
+
+#fourth {
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+/* Note: third and fourth has a font-size of 24px, can make it into a class */
+.text-resize {
+    font-size: 24px;
+}
+
+
+
