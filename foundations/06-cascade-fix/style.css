@@ -1,5 +1,6 @@
-body{
-  font-family:Arial, Helvetica, sans-serif
+/* Selector Specificity: ID > Class > Type */
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .para,
@@ -8,7 +9,8 @@ body{
   font-weight: 800;
 }
 
-.small-para {
+/* 2 class selectors beats 1 class selector */
+.para.small-para {
   font-size: 14px;
   font-weight: 800;
 }
@@ -17,7 +19,8 @@ body{
   font-size: 22px;
 }
 
-.confirm {
+/* ID most specific */
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
@@ -29,7 +32,8 @@ body{
   font-size: 20px;
 }
 
-.child {
+/* 2 class selectors beats 1 class selector */
+.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
